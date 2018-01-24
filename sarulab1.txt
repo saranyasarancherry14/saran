@@ -23,6 +23,10 @@
 23.?- it is used when the lines are used in forward search.
 24.yw-copy yanks of the one word.
 25.R- To replace the character more than one.
-
+26.a-inserts text after the end of the line.
+27.:r-filename will insert the content into a charater.
+28./-back word search n to find the next occurs.
+29.ls also uesd to delete .
+30.A- Append the text which can be inserted.
 
 
