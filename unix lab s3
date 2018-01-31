@@ -1,0 +1,222 @@
+1.first command $man who
+under that somany commands
+ -a, --all
+              same as -b -d --login -p -r -t -T -u
+
+       -b, --boot
+              time of last system boot
+
+       -d, --dead
+              print dead processes
+
+       -H, --heading
+              print line of column headings
+ evel
+       --ips  print  ips  instead  of  hostnames. with --lookup, canonicalizes
+              based on stored IP, if available, rather than stored hostname
+
+       -l, --login
+              print system login processes
+
+       --lookup
+              attempt to canonicalize hostnames via DNS
+
+       -m     only hostname and user associated with stdin
+
+       -p, --process
+              print active processes spawned by init
+
+       -q, --count
+              all login names and number of users logged on
+
+       -r, --runlevel -u, --users
+              list users logged in
+
+       --message
+              same as -T
+
+       --writable
+              same as -T
+
+       --help display this help and exit
+
+       --version
+              output version information and exit
+2.Next command is date
+-d, --date=STRING
+              display time described by STRING, not 'now'
+
+       --debug
+              annotate the parsed date, and warn about questionable  usage  to
+              stderr
+
+       -f, --file=DATEFILE
+              like --date; once for each line of DATEFILE
+
+       -I[FMT], --iso-8601[=FMT]
+              output  date/time  in ISO 8601 format.  FMT='date' for date only
+              (the default), 'hours', 'minutes', 'seconds', or 'ns'  for  date
+              and    time    to    the    indicated    precision.     Example:
+              2006-08-14T02:34:56-06:00
+
+       -R, --rfc-2822
+              output date and time in RFC 2822 format.  Example: Mon,  14  Aug
+     -R, --rfc-2822
+              output date and time in RFC 2822 format.  Example: Mon,  14  Aug
+              2006 02:34:56 -0600
+
+       --rfc-3339=FMT
+              output  date/time in RFC 3339 format.  FMT='date', 'seconds', or
+              'ns' for date and time to  the  indicated  precision.   Example:
+              2006-08-14 02:34:56-06:00
+
+       -r, --reference=FILE
+              display the last modification time of FILE
+
+       -s, --set=STRING
+              set time described by STRING
+
+       -u, --utc, --universal
+              print or set Coordinated Universal Time (UTC)
+
+       --help display this help and exit
+
+          2006 02:34:56 -0600
+3.The command is mancal:
+options are
+-h      Turns off highlighting of today.
+
+     -J      Display Julian Calendar, if combined with the -o option, display
+             date of Orthodox Easter according to the Julian Calendar.
+
+     -e      Display date of Easter (for western churches).
+
+     -j      Display Julian days (days one-based, numbered from January 1).
+
+     -m month
+             Display the specified month.  If month is specified as a decimal
+             number, appending ‘f’ or ‘p’ displays 
+     -o      Display date of Orthodox Easter (Greek and Russian Orthodox
+             Churches).
+
+     -p      Print the country codes and switching days from Julian to Grego‐
+             rian Calendar as they are assumed by ncal.  The country code as
+             determined from the local environment is marked with an asterisk.
+
+     -s country_code
+             Assume the switch from Julian to Gregorian Calendar at the date
+             associated with the country_code.  If not specified, ncal tries
+             to guess the switch date from the local environment or falls back
+             to September 2, 1752.  This was when Great Britain and her
+             colonies switched to the Gregorian Calendar.
+ -w      Print the number of the week below each week column.
+
+     -y      Display a calendar for the specified year. This option is implied
+             when a year but no month are specified on the command line.
+
+     -3      Display the previous, current and next month surrounding today.
+
+     -1      Display only the current month. This is the default.
+
+     -A number
+             Months to add after. The specified number of months is added to
+             the end of the display. This is in addition to any date range
+             selected by the -y, -3, or -1 options. For example, “cal -y -B2
+             -A2” shows everything from November of the previous year to Feb‐
+             ruary of the following year. Negative numbers are allowed, in
+             which case the specified number of months is subtracted. For
+             example, “cal -y -B-6” shows July to December. And “cal -A11”
+             simply shows the next 12 months.
+     -N      Switch to ncal mode.
+
+     -d yyyy-mm
+             Use yyyy-mm as the current date (for debugging of date selec‐
+             tion).
+
+     -H yyyy-mm-dd
+             Use yyyy-mm-dd as the current date (for debugging of highlight‐
+             ing).
+
+     -M      Weeks start on Monday.
+
+     -S      Weeks start on Sunday.
+
+     -b      Use oldstyle format for ncal output.
+4.command is  manls:
+under this options are
+
+a, --all
+              do not ignore entries starting with .
+
+       -A, --almost-all
+              do not list implied . and ..
+
+       --author
+              with -l, print the author of each file
+
+       -b, --escape
+              print C-style escapes for nongraphic characters
+
+       --block-size=SIZE
+              scale sizes by SIZE before printing them; e.g., '--block-size=M'
+              prints sizes in units of 1,048,576 bytes; see SIZE format below
+
+       -B, --ignore-backups
+              do not list implied entries ending with ~
+
+       -c     with -lt: sort by, and show, ctime (time of last modification of
+              file status information); with -l: show ctime and sort by  name;
+              otherwise: sort by ctime, newest first
+ -d, --directory
+              list directories themselves, not their contents
+
+       -D, --dired
+              generate output designed for Emacs' dired mode
+
+       -f     do not sort, enable -aU, disable -ls --color
+
+       -F, --classify
+              append indicator (one of */=>@|) to entries
+
+       --file-type
+              likewise, except do not append '*'
+
+       --format=WORD
+              across -x, commas -m, horizontal -x, long -l, single-column  -1,
+              verbose -l, vertical -C
+
+       --full-time
+5.command man uname:
+  -a, --all
+              print  all  information,  in the following order, except omit -p
+              and -i if unknown:
+
+       -s, --kernel-name
+              print the kernel name
+
+       -n, --nodename
+              print the network node hostname
+
+       -r, --kernel-release
+              print the kernel release
+
+       -v, --kernel-version
+              print the kernel version
+
+       -m, --machine
+              print the machine hardware name
+
+       -p, --processor
+              print the processor type (non-portable)
+-i, --hardware-platform
+              print the hardware platform (non-portable)
+
+       -o, --operating-system
+              print the operating system
+
+       --help display this help and exit
+
+       --version
+              output version information and exit
+
+
