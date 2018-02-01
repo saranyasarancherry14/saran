@@ -1,0 +1,25 @@
+
+a.cs2016a221@user:~/saran$ ls -l|wc
+      2      11      68
+b.cs2016a221@user:~/saran$ tail -n 7 saru.csv
+sl.no,name,Register.no
+1,saranya,14
+2,priya,21
+3,sandhu,32
+4,Dheeran,18
+5,Haasini,23
+c.cs2016a221@user:~/saran$ date saru.csv
+date: invalid date ‘saru.csv’
+cs2016a221@user:~/saran$ gedit saru.csv
+d.cs2016a221@user:~/saran$ date +'%T'
+10:26:39
+e.cs2016a221@user:~/saran$ tail -n 8 saru.csv
+7,pruthvi,27
+8,saran,05
+9,Ammu,07
+10,Ishu,20
+11,Anu,28
+12,usha,29
+13,priyanka,30
+14,Hachu,19
+
