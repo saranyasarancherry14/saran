@@ -1,0 +1,67 @@
+ *).sed -n '/adult/p' cherry.csv
+Saranya,adult
+Vidhya,adult
+Priyanka,adult
+Harini,adult
+Nayana,adult
+Karthik,adult
+
+*).sed -n '/kid/p' cherry.csv
+Lakshmi priya,kid 
+Pradeep,kid
+Haasini,kid
+Theeran,kid
+
+*). sed -n '/M/p' cherry.csv
+Saranya,M,
+Lakshmi priya,M
+Vidhya,M
+Nayana,M
+Haasini,M
+Karthik,M
+
+*).
+sed -n '/m/p' cherry.csv
+Lakshmi priya,M
+Priyanka,m
+Harini,m
+Pradeep,m
+Theeran,m
+
+*).sed -n '/1/p' cherry.csv
+Saranya,M,1
+Harini,m,1
+Pradeep,m,1
+Theeran,m,1
+
+*).sed -n '/3/p' cherry.csv
+Vidhya,M,3
+Nayana,M,3
+
+*). sed -n '/2/p' cherry.csv
+Lakshmi priya,M,2
+Haasini,M,2
+Karthik,M,2
+
+*). grep -i "M" cherry.csv
+Saranya,M,1
+Lakshmi priya,M,2
+Vidhya,M,3
+Priyanka,m,4
+Harini,m,1
+Nayana,M,3
+Pradeep,m,1
+Haasini,M,2
+Theeran,m,1
+Karthik,M,2
+
+*).Saranya,M,1
+Harini,m,1
+Pradeep,m,1
+Theeran,m,1
+
+*).Saranya,M,1
+Lakshmi priya,M,2
+Haasini,M,2
+
+*).
